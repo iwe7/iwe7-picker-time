@@ -1,7 +1,7 @@
 import { PickerTimeComponent } from './picker-time/picker-time';
 import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
-import { Iwe7PickerModule } from '../../../iwe7-picker/src/public_api';
+import { Iwe7PickerModule } from 'iwe7-picker';
 import { ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({

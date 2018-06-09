@@ -2,7 +2,6 @@ import { Iwe7CoreControlValueAccessor } from 'iwe7-core';
 import { FormGroup, FormBuilder, NG_VALUE_ACCESSOR, Validators } from '@angular/forms';
 import { Component, Injector, forwardRef, Input } from '@angular/core';
 import { coerceBooleanProperty } from '@angular/cdk/coercion';
-import { tap } from 'rxjs/operators';
 import { pad, getDayDiff, DAY_TIMESTAMP, formatDate, MINUTE_TIMESTAMP } from 'iwe7-util';
 const NOW = {
     value: 'now',
